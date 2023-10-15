@@ -52,7 +52,7 @@
             calculateL1Button.TabIndex = 1;
             calculateL1Button.Text = "Calculate L1";
             calculateL1Button.UseVisualStyleBackColor = true;
-            calculateL1Button.Click += CalculateL1;
+            calculateL1Button.Click += CalculateL1Button_Click;
             // 
             // minimumThresholdInputField
             // 
