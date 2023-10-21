@@ -18,6 +18,15 @@ namespace DateApriori
             table.SetMinimumThreshold(minimumThresholdInputField.Text);
             table.CalculateL1();
         }
+        private void CalculateL2Button_Click(object sender, EventArgs e)
+        {
+            table.SetMinimumThreshold(minimumThresholdInputField.Text);
+            table.CalculateL2();
+        }
 
+        private void FormatTableButton_Click(object sender, EventArgs e)
+        {
+            table.OutputTable();
+        }
     }
 }
